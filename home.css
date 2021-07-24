@@ -1,0 +1,45 @@
+
+
+@media (min-width: 600px) {
+	.imgdiv
+{
+	width: 80%;
+	height: 250px;
+	background-color: red;
+	margin-left: 10%;
+}
+.imgdiv1
+{
+	width: 70%;
+	height: 110px;
+	margin-top: 20px;
+	margin-left: 18%;
+	display: flex;
+}
+.indiv
+{
+	width: 25%;
+	height: 150px;
+	background-color: green;
+	margin-left: 30px;
+}
+	}
+	@media (max-width: 600px) {
+		.imgdiv
+{
+	width: 400px;
+	height: 150px;
+	background-color: red;
+}
+.imgdiv1
+{
+	margin-top: 20px;
+}
+.indiv
+{
+	height: 150px;
+	width: 180px;
+	margin-top: 20px;
+	background-color: green;
+}
+	}

@@ -1,0 +1,124 @@
+.main11
+{
+	width:90%;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 10px;
+	display:flex;
+
+}
+.main111
+{
+	width: 40%;
+	height: 400px;
+	background-color: green;
+}
+.main1111
+{
+	width: 40%;
+	margin-left: 2%;
+	height: 400px;
+
+}
+.main11div
+{
+	width:60%;
+	margin-left: 5%;
+	margin-top: 10px;
+	display:flex;
+
+}
+.bgclass
+{
+	background-image: url('images/rcp1.jpg');
+}
+.logicon
+{
+	margin-left: 40%;
+	margin-top: 20px;
+}
+.inla, .inlab
+{
+	width: 80%;
+	margin-left: 10%;
+}
+.subbtn
+{
+	width: 35%;
+	margin-left: 10%;
+}
+
+@media (min-width: 600px) {
+ .logindiv
+{
+	width: 400px;
+	height: 350px;
+	background-color: white;
+	margin-left: 33%;
+	opacity: 0.8;
+	margin-top: 180px;
+	z-index:1;
+}
+.logindiv1
+{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin-left: 33%;
+	opacity: 0.8;
+	margin-top: 150px;
+	z-index:1;
+}
+#logindiv11
+{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin-left: 33%;
+	opacity: 0.8;
+	z-index:1;
+}
+}
+@media (max-width: 600px) {
+ .logindiv
+{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	opacity: 0.8;
+	margin-left: 5%;
+	margin-top: 180px;
+}
+.logindiv1
+{
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	margin-left: 33%;
+	opacity: 0.8;
+	margin-top: 150px;
+	z-index:1;
+}
+}
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+.imgdiv
+{
+	width: 80%;
+	height: 400px;
+	background-color: red;
+}
